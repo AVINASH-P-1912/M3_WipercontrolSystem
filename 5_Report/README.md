@@ -1,10 +1,10 @@
 # Abstract
 
-A windscreen wiper  is a device used to remove rain, snow, ice, washer fluid, water from a vehicle's front window. Almost all motor vehicles, including cars, trucks, buses, train locomotives, and watercraft with a cabin—and some aircraft—are equipped with one or more such wipers, which are usually a legal requirement. The prior system required manual wiper activation,by changing the frequency it results in the operation of bringing up the wiper speed is varied .The objectives of this project are to upgrade the older cars system by providing automatic wiping system, to improve the system by using sensor with actuator and to design a basic program that will fully operate with the system. The concept of this proposed wiper system is similar with other existing conventional wiper. In spite of removing water from windscreen, this system also will be upgraded to an automatic control system by using a Peripheral Interface Controller.
+A windshield wiper is a device that cleans the front window of a car by removing rain, snow, ice, washer fluid, and water. Almost all motor vehicles, including cars, lorries, buses, railroad locomotives, and watercraft with a cabin—as well as some aircraft—have one or more such wipers, which are usually required by law. The previous technology needed manual wiper activation; adjusting the frequency results in a variable operation of raising the wiper speed. This project seeks to improve the system of older cars by providing automated wiping, to improve the system by using a sensor with actuators, and to build a basic software that will completely work with the system. This proposed wiper system's principle is comparable to those of other existing conventional wipers.Despite removing water from the windscreen, this system also will be upgraded to an automatic control system by using a Peripheral Interface Controller
 
 
 # INTRODUCTION
-  The operational speed of a wiper is controlled by a wiper speed control system in accordance with frequencies. The pulse signal is digitally processed to provide a control signal. A wiper driver circuit receives the control signal and adjusts the operational speed or timing in line with it.
+ A wiper speed control system regulates the operational speed of a wiper based on frequencies. To generate a control signal, the pulse signal is digitally processed. The control signal is received by a wiper driving circuit, which then adjusts the operational speed or time accordingly.
 # SOFTWARE REQUIREMENTS
  STM32 CUBE IDE
 # COMPONENTS
@@ -24,7 +24,17 @@ A windscreen wiper  is a device used to remove rain, snow, ice, washer fluid, wa
   * This Microcontroller is utilised in printing and scanning machines ,heat ventilation, air conditioning, and security systems. 
   * This module can be found in a variety of household products.
  # WORKING PRINCIPLE
-  Assume that the automobile is the microcontroller. If the button is hit, the first led (red) will turn on, Clicking again  the wiper will start, and the second led (blue) will turn on for a desired rate. If the button is pressed again, the third led (green) will turn on, and the wiper's speed will be increased in comparison to the previous one. The fourth press will turn on the fourth led (orange), and the wiper speed will be increased in accordance with the previous one. The microcontroller (vehicle) is turned off after the fifth click.
+ Consider the automobile as microcontroller. If the button is hit, the first LED (red) will turn on. Pressing the button again the wiper will start and the second LED (blue) will turn on for the desired rate. If the button is pressed again, the third LED (green) will turn on and the wiper's speed will be increased in comparison to the previous one. The fourth press will turn on the fourth LED (orange) and the wiper speed will be increased in accordance with the previous one. The microcontroller (vehicle) is turned off after the fifth click.
+## FOLDER STRUCTURE
+Folder | Description
+-- | --
+0_Abstract | Explaination of the project
+1_Requirements | Documents detailing requirements and research
+2_Design	| Behavioural and Structural UML Diagrams along with Block diagrams and flow charts
+3_Implemenatation	 | All code and documentation
+4_TestCases	| Documents with test plans and procedures and Output
+5_Report	| Overall report of the project
+6_Output	| Code Execution Images and Video
  ## 4 W'S
  # WHAT IS WIPER SYSTEM
   Windscreen wipers are necessary for maintaining sufficient view for the driver, especially in modern high-speed cars.
@@ -34,5 +44,20 @@ A windscreen wiper  is a device used to remove rain, snow, ice, washer fluid, wa
   The windshield wipers remove rain and snow from the windshield, while the headlights improve visibility at night.
  # WHO DISCOVERED WIPER SYSTEM
   Mark Anderson invented on 1902
-   
+     ## HOW 
+  The control system includes a rain sensor which detects the rain condition. An analog signal having an amplitude depending upon the detected rain conditions has been identified.A converter is used to convert analog signal into digital pulse signal and is transferred to a digital circuit system.The pulse signal is digitally processed where a control signal is produced.The control signal is applied to a wiper driver circuit to adjust the operational speed or timing in accordance with the control signal.
+# SWOT ANALYSIS
+## STRENGTH
+* Low cost 
+* High reputation
+* Clarity of vision 
+## WEAKNESSES
+* Replacement cost are higher.
+* Chances of wiper motor failure.
+## OPPORTUNITIES
+* High possibilities for safety.
+## THREATS
+* Wiper mix might be an issue in rain.
+* Replaced  by advanced technology.
+
   
