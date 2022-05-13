@@ -10,3 +10,9 @@
 
 * Codacy
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/34bba906c2244f83a9e994d78b9a2c47)](https://www.codacy.com/gh/AVINASH-P-1912/M3_WipercontrolSystem/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AVINASH-P-1912/M3_WipercontrolSystem&amp;utm_campaign=Badge_Grade)
+
+* Codiga
+
+  code Quality ![Code Quality Score](https://api.codiga.io/project/33396/score/svg)
+  
+  Quality Grade ![Quality Grade](https://api.codiga.io/project/33396/status/svg)
