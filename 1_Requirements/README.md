@@ -1,3 +1,4 @@
+# WipercontrolSystem
 
 # INTRODUCTION
   The operational speed of a wiper is controlled by a wiper speed control system in accordance with frequencies. The pulse signal is digitally processed to provide a control signal. A wiper driver circuit receives the control signal and adjusts the operational speed or timing in line with it.
@@ -20,8 +21,18 @@
   * This Microcontroller is utilised in printing and scanning machines ,heat ventilation, air conditioning, and security systems. 
   * This module can be found in a variety of household products.
  # WORKING PRINCIPLE
-  Assume that the automobile is the microcontroller. If the button is hit, the first led (red) will turn on, Clicking again  the wiper will start, and the second led (blue) will turn on for a desired rate. If the button is pressed again, the third led (green) will turn on, and the wiper's speed will be increased in comparison to the previous one. The fourth press will turn on the fourth led (orange), and the wiper speed will be increased in accordance with the previous one. The microcontroller (vehicle) is turned off after the fifth click.
- ## 4 W'S
+  Consider the automobile as microcontroller. If the button is hit, the first LED (red) will turn on. Pressing the button again the wiper will start and the second LED (blue) will turn on for the desired rate. If the button is pressed again, the third LED (green) will turn on and the wiper's speed will be increased in comparison to the previous one. The fourth press will turn on the fourth LED (orange) and the wiper speed will be increased in accordance with the previous one. The microcontroller (vehicle) is turned off after the fifth click.
+## FOLDER STRUCTURE
+Folder | Description
+-- | --
+0_Abstract | Explaination of the project
+1_Requirements | Documents detailing requirements and research
+2_Architecture	| Behavioural and Structural UML Diagrams along with Block diagrams and flow charts
+3_Implemenatation	 | All code and documentation
+4_TestCase&Outputs 	| Documents with test plans and procedures and Output
+5_Report	| Overall report of the project
+6_ImagesAndVideos	| Code Execution Images and Video
+ ## 4 W'S &1 H
  # WHAT IS WIPER SYSTEM
   Windscreen wipers are necessary for maintaining sufficient view for the driver, especially in modern high-speed cars.
  # WHY WIPER SYSTEM
